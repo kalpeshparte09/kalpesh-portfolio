@@ -2,19 +2,19 @@ const projects = [
   {
     title: "E-Commerce Admin (PDO + MySQLi)",
     desc: "CRUD portal with secure prepared statements, validations, and self-processing pages.",
-    link: "https://github.com/",
+    link: "https://github.com/kalpeshparte09",
     stack: ["PHP", "MySQL", "PDO", "MySQLi", "Tailwind"]
   },
   {
     title: "Thrifted Threads (Android)",
     desc: "Firebase-backed thrift store app: recycler view, product detail, checkout.",
-    link: "https://github.com/",
+    link: "https://github.com/kalpeshparte09",
     stack: ["Kotlin", "Firebase", "XML"]
   },
   {
     title: "Campsite Booking Application - Web Project",
     desc: "Developed a campsite booking web application using the React.js framework and JavaScript.",
-    link: "https://github.com/",
+    link: "https://github.com/kalpeshparte09",
     stack: ["React", "CSS", "JS"]
   }
 ];

@@ -11,7 +11,7 @@ export default function Navbar() {
   const isDark = (mounted ? resolvedTheme : theme) === "dark";
 
   return (
-    <header className="sticky top-0 z-50 border-b backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-sm">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         <a href="/" className="font-bold text-2xl tracking-tight text-gray-900 dark:text-white hover:text-emerald-500 transition">
           Kalpesh Parte
@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-emerald-500 transition">Contact</a>
         </nav>
         <a
-          href="/Kalpesh_Parte.pdf"
+          href="/KalpeshPartePF.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-xl border border-emerald-500 px-4 py-2 text-sm font-medium text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500 hover:text-white transition shadow-sm"

@@ -4,6 +4,7 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Chatbot from "@/components/Chatbot";
 import LetterGlitch from "@/components/LetterGlitch";
+import Introduction from "@/components/Introduction";
 
 export default function HomePage() {
   return (
@@ -14,10 +15,10 @@ export default function HomePage() {
       {/* ✅ Foreground content */}
       <div className="relative z-10 space-y-24">
         <Hero />
+        <Introduction />
         <Projects />
         <Skills />
         <Contact />
-        <Chatbot />
       </div>
     </div>
   );

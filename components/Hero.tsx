@@ -21,27 +21,6 @@ export default function Hero() {
         I build responsive, accessible apps with React, Next.js, Node, and MongoDB —
         blending clean code with motion and AI.
       </p>
-
-      <div className="mt-10 flex gap-5 justify-center flex-wrap">
-        <a
-          href="#projects"
-          className="relative inline-flex items-center justify-center px-6 py-3 
-                     font-medium text-white transition duration-300 
-                     rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 
-                     hover:scale-105 hover:shadow-[0_0_25px_rgba(168,85,247,0.8)]"
-        >
-          <span>🚀 View Projects</span>
-        </a>
-        <a
-          href="#contact"
-          className="relative inline-flex items-center justify-center px-6 py-3 
-                     font-medium text-white transition duration-300 rounded-xl 
-                     bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 
-                     hover:scale-105 hover:shadow-[0_0_25px_rgba(34,197,94,0.8)]"
-        >
-          <span>📬 Contact Me</span>
-        </a>
-      </div>
     </section>
   );
 }

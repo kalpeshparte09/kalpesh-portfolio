@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kalpesh Portfolio Starter (Next.js 14 + TS + Tailwind + AI Chat)
 
 A modern, production-ready starter for your full‑stack developer portfolio.
@@ -48,3 +49,6 @@ lib/
 - Add blog (`app/blog/`) with MDX.
 - Add 3D hero using `react-three-fiber` later.
 - Convert AI chat to use retrieval (RAG) with your resume & project docs.
+=======
+# My_PortFolio
+>>>>>>> 8ffd350e21d2f4ad6a92f8ab69038f384e7d8eca
