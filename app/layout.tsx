@@ -2,20 +2,20 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
-import LetterGlitch from "@/components/LetterGlitch";
 
 export const metadata: Metadata = {
-  title: "Kalpesh Parte — Full‑Stack Developer",
-  description: "Modern portfolio with AI and delightful UI.",
+  title: "Kalpesh Parte | Full-Stack Developer Portfolio",
+  description:
+    "Portfolio of Kalpesh Parte, a Toronto-based full-stack developer building polished interfaces, practical APIs, and modern web experiences.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen bg-slate-950 text-slate-50 antialiased">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
-          <main className="container py-10">{children}</main>
+          <main className="container mx-auto py-10">{children}</main>
         </ThemeProvider>
       </body>
     </html>

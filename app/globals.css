@@ -2,19 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
 }
 
 :root {
-  --bg: 255 255 255;
-  --fg: 17 24 39;
+  --bg: 2 6 23;
+  --fg: 248 250 252;
 }
+
 .dark {
-  --bg: 17 24 39;
-  --fg: 243 244 246;
+  --bg: 2 6 23;
+  --fg: 248 250 252;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(var(--bg));
   color: rgb(var(--fg));
+  font-feature-settings: "ss01" on, "cv02" on, "cv03" on;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.35);
+  color: rgb(248 250 252);
+}
+
+section {
+  scroll-margin-top: 7rem;
+}
+
+a,
+button,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
 }

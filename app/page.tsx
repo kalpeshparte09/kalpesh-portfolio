@@ -4,19 +4,18 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import LetterGlitch from "@/components/LetterGlitch";
 import Introduction from "@/components/Introduction";
+import ChatAssistant from "@/components/ChatAssistant";
 
 export default function HomePage() {
   return (
     <div className="relative min-h-screen">
-      {/* ✅ Background glitch effect */}
       <LetterGlitch />
-
-      {/* ✅ Foreground content */}
-      <div className="relative z-10 space-y-24">
+      <div className="relative z-10 space-y-24 pb-12">
         <Hero />
         <Introduction />
         <Projects />
         <Skills />
+        <ChatAssistant />
         <Contact />
       </div>
     </div>

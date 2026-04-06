@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     }
 
     const lower = message.toLowerCase();
-    let reply = "🤔 I’m not sure about that. Try asking about skills, projects, or experience.";
+    let reply = "I’m not sure about that yet. Try asking about skills, projects, or experience.";
 
     // Simple keyword-based matching
     if (
