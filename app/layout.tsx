@@ -1,6 +1,5 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
@@ -11,12 +10,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body className="min-h-screen bg-slate-950 text-slate-50 antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navbar />
-          <main className="container mx-auto py-10">{children}</main>
-        </ThemeProvider>
+        <Navbar />
+        <main className="container mx-auto py-10">{children}</main>
       </body>
     </html>
   );
